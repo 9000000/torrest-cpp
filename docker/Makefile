@@ -1,4 +1,4 @@
-IMAGE_PREFIX = i96751414/torrest-cpp
+IMAGE_PREFIX = matrix37/torrest-cpp
 IMAGE_TAG ?= latest
 CROSS_COMPILER_TAG ?= latest
 ROOT_DIR = $(abspath $(lastword $(MAKEFILE_LIST))/../..)
