@@ -3,7 +3,7 @@
 # docker build -t i96751414/torrest-cpp-linux-x64:latest -f docker/linux-x64.Dockerfile scripts/
 
 ARG CROSS_COMPILER_TAG=latest
-FROM i96751414/cross-compiler-linux-x64:${CROSS_COMPILER_TAG}
+FROM matrix37/cross-compiler-linux-x64:${CROSS_COMPILER_TAG}
 
 ENV PREFIX="${CROSS_ROOT}"
 ENV CMAKE_OPTS="-DCMAKE_POSITION_INDEPENDENT_CODE=ON"
