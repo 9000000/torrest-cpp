@@ -24,18 +24,9 @@ jobs:
       max-parallel: 5
       matrix:
         platform:
-          - dev
-          - android-arm
-          - android-arm64
-          - android-x64
-          - android-x86
-          - darwin-x64
           - linux-armv7
           - linux-arm64
           - linux-x64
-          - linux-x86
-          - windows-x64
-          - windows-x86
     steps:
       - name: Checkout
         uses: actions/checkout@v4
